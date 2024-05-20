@@ -22,6 +22,7 @@
             echo "<td>{$book['pengarang']}</td>";
             echo "<td>{$book['tahun']}</td>";
             echo "<td><a href='delete_book.php?id={$index}'>Hapus</a></td>";
+            echo "<td><a href='add_book.php?edit={$index}'>Edit</a></td>";
             echo "</tr>";
         }
         ?>
